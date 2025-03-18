@@ -16,28 +16,28 @@ const tabItems = [
     id: 'unified-inbox',
     title: 'Unified Inbox',
     description: 'Manage all customer messages in one AI-powered inbox for streamlined communication.',
-    image: '/assets/imgs/hilios/hero/unified-inbox.svg',
+    image: 'https://hilios.ai/assets/imgs/hilios/hero/unified-inbox.svg',
     icon: InboxIcon
   },
   {
     id: 'knowledge-base',
     title: 'Knowledge Base',
     description: 'AI-powered knowledge base that learns from your content to provide accurate answers and identify gaps.',
-    image: '/assets/imgs/hilios/hero/knowledge-base.svg',
+    image: 'https://hilios.ai/_next/image?url=%2Fassets%2Fimgs%2Fhilios%2Fhero%2Fknowledge-base.png&w=2048&q=75',
     icon: BookOpenIcon
   },
   {
     id: 'integrate-plugins',
     title: 'Integrate Plugins',
     description: 'Powerful apps and integrations to acquire, engage and retain more customers.',
-    image: '/assets/imgs/hilios/hero/integrate-plugins.svg',
+    image: 'https://hilios.ai/_next/image?url=%2Fassets%2Fimgs%2Fhilios%2Fhero%2Fintegrate-plugins.png&w=2048&q=75',
     icon: PuzzlePieceIcon
   },
   {
     id: 'business-insight',
     title: 'Business Insight',
     description: 'Get real-time analytics and AI insights to track customer satisfaction and agent performance.',
-    image: '/assets/imgs/hilios/hero/business-insight.svg',
+    image: 'https://hilios.ai/_next/image?url=%2Fassets%2Fimgs%2Fhilios%2Fhero%2Fbusiness-insight.png&w=2048&q=75',
     icon: ChartBarIcon
   }
 ];

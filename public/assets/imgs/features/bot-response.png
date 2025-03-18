@@ -1,1 +1,25 @@
- 
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" fill="#f0f4ff" />
+  
+  <!-- Chat window -->
+  <rect x="30" y="30" width="340" height="190" rx="8" fill="#ffffff" stroke="#0078FF" stroke-width="2" />
+  
+  <!-- Header -->
+  <rect x="30" y="30" width="340" height="40" rx="8" fill="#0078FF" />
+  <text x="60" y="55" fill="#ffffff" font-family="Arial" font-weight="bold" font-size="14">HiliosAI Assistant</text>
+  <circle cx="350" cy="50" r="8" fill="#ffffff" />
+  
+  <!-- User question -->
+  <rect x="50" y="80" width="200" height="30" rx="15" fill="#EEF4FF" />
+  <text x="70" y="100" fill="#0078FF" font-family="Arial" font-size="12">How do I reset my password?</text>
+  
+  <!-- Bot response with knowledge -->
+  <rect x="150" y="120" width="200" height="80" rx="15" fill="#0078FF" />
+  <text x="165" y="140" fill="#ffffff" font-family="Arial" font-size="12">To reset your password:</text>
+  <text x="165" y="160" fill="#ffffff" font-family="Arial" font-size="12">1. Go to login page</text>
+  <text x="165" y="180" fill="#ffffff" font-family="Arial" font-size="12">2. Click "Forgot Password"</text>
+  <text x="165" y="200" fill="#ffffff" font-family="Arial" font-size="10">Based on our help documentation</text>
+  
+  <text x="200" y="25" fill="#0078FF" font-family="Arial" font-weight="bold" font-size="16">AI Bot Response</text>
+</svg> 

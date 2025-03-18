@@ -1,1 +1,24 @@
- 
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" fill="#f0f4ff" />
+  <rect x="40" y="40" width="320" height="170" rx="8" fill="#ffffff" stroke="#0078FF" stroke-width="2" />
+  
+  <!-- Chat interface elements -->
+  <rect x="60" y="60" width="280" height="30" rx="4" fill="#EEF4FF" />
+  <circle cx="75" cy="75" r="8" fill="#0078FF" />
+  <rect x="90" y="68" width="180" height="14" rx="2" fill="#d1e0ff" />
+  
+  <!-- Message bubbles -->
+  <rect x="60" y="100" width="160" height="30" rx="15" fill="#EEF4FF" />
+  <rect x="160" y="140" width="160" height="30" rx="15" fill="#0078FF" />
+  <text x="90" y="120" fill="#0078FF" font-family="Arial" font-size="12">User message</text>
+  <text x="190" y="160" fill="#ffffff" font-family="Arial" font-size="12">AI response</text>
+  
+  <!-- Multi-channel icons -->
+  <circle cx="60" cy="190" r="12" fill="#0078FF" />
+  <circle cx="100" cy="190" r="12" fill="#00A3FF" />
+  <circle cx="140" cy="190" r="12" fill="#0078FF" />
+  <circle cx="180" cy="190" r="12" fill="#00A3FF" />
+  
+  <text x="200" y="25" fill="#0078FF" font-family="Arial" font-weight="bold" font-size="16">Multi-channel Support</text>
+</svg> 
