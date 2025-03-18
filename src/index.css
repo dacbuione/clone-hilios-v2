@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #070D14;
+    --secondary: #636D7E;
+    --theme: #0078FF;
+    --theme-light: #e5f1ff;
+    --btn-bg-main: #0078FF;
+    --btn-bg-hover: #0056b3;
+    --btn-text-main: #FFFFFF;
+    --btn-text-hover: #FFFFFF;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overscroll-behavior: none;
+  }
+
+  body {
+    @apply font-sans text-base text-primary antialiased;
+    background: linear-gradient(180deg, #EEF4FF 0%, #FFFFFF 100%);
+    overscroll-behavior: none;
+  }
+}
+
+@layer components {
+  .sec_title1 {
+    @apply text-[32px] md:text-[40px] lg:text-[48px] font-bold leading-[1.208];
+  }
+
+  .sec_space4 {
+    @apply py-[60px] md:py-[80px] xl:py-[100px];
+  }
+
+  .sec_space_top1 {
+    @apply pt-[60px] md:pt-[80px] xl:pt-[100px];
+  }
+
+  .sec_space_bottom4 {
+    @apply pb-[60px] md:pb-[80px] xl:pb-[100px];
+  }
+
+  .gradient-title {
+    background: linear-gradient(90deg, #0078FF 0%, #00A3FF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+  }
+}
+
+.has_fade_anim {
+  @apply transition-all duration-300;
+}
+
+.has_fade_anim.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+.text-theme {
+  color: var(--theme);
+}
+
+.bg-theme {
+  background-color: var(--theme);
+}
+
+.border-theme {
+  border-color: var(--theme);
+}
+
+.bg-btn-bg-main {
+  background-color: var(--btn-bg-main);
+}
+
+.bg-btn-bg-hover {
+  background-color: var(--btn-bg-hover);
+}
+
+.text-btn-text-main {
+  color: var(--btn-text-main);
+}
+
+.text-btn-text-hover {
+  color: var(--btn-text-hover);
+}
+
+/* Animation keyframes */
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slideDown {
+  animation: slideDown 0.3s ease-in-out forwards;
+}

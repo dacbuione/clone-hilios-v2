@@ -1,0 +1,41 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#F5F7FF" />
+  <rect x="100" y="60" width="400" height="280" rx="10" fill="white" stroke="#0066FF" stroke-width="2" />
+  
+  <!-- Dashboard header -->
+  <rect x="120" y="80" width="360" height="40" rx="5" fill="#F0F4FF" />
+  <text x="140" y="105" font-family="Arial" font-size="16" font-weight="bold" fill="#0066FF">Business Analytics Dashboard</text>
+  
+  <!-- Chart 1: Bar Chart -->
+  <rect x="120" y="140" width="170" height="120" rx="5" fill="#F0F4FF" />
+  <text x="135" y="160" font-family="Arial" font-size="12" font-weight="bold" fill="#333333">Customer Satisfaction</text>
+  
+  <rect x="140" y="175" width="20" height="65" fill="#0066FF" opacity="0.8" />
+  <rect x="170" y="195" width="20" height="45" fill="#0066FF" opacity="0.8" />
+  <rect x="200" y="165" width="20" height="75" fill="#0066FF" opacity="0.8" />
+  <rect x="230" y="180" width="20" height="60" fill="#0066FF" opacity="0.8" />
+  
+  <line x1="140" y1="240" x2="250" y2="240" stroke="#333333" stroke-width="1" />
+  <line x1="140" y1="240" x2="140" y2="175" stroke="#333333" stroke-width="1" />
+  
+  <!-- Chart 2: Line Chart -->
+  <rect x="310" y="140" width="170" height="120" rx="5" fill="#F0F4FF" />
+  <text x="325" y="160" font-family="Arial" font-size="12" font-weight="bold" fill="#333333">Response Time Trend</text>
+  
+  <polyline points="330,210 350,220 370,200 390,190 410,195 430,180 450,170" stroke="#0066FF" stroke-width="2" fill="none" />
+  
+  <line x1="330" y1="230" x2="450" y2="230" stroke="#333333" stroke-width="1" />
+  <line x1="330" y1="230" x2="330" y2="170" stroke="#333333" stroke-width="1" />
+  
+  <!-- Stats Boxes -->
+  <rect x="120" y="280" width="110" height="40" rx="5" fill="#0066FF" opacity="0.9" />
+  <text x="135" y="305" font-family="Arial" font-size="12" font-weight="bold" fill="white">Active Users: 2,457</text>
+  
+  <rect x="245" y="280" width="110" height="40" rx="5" fill="#0066FF" opacity="0.9" />
+  <text x="260" y="305" font-family="Arial" font-size="12" font-weight="bold" fill="white">Avg. Time: 2m 30s</text>
+  
+  <rect x="370" y="280" width="110" height="40" rx="5" fill="#0066FF" opacity="0.9" />
+  <text x="385" y="305" font-family="Arial" font-size="12" font-weight="bold" fill="white">Success Rate: 98%</text>
+  
+  <text x="180" y="350" font-family="Arial" font-size="18" font-weight="bold" fill="#0066FF">Business Insight Analytics</text>
+</svg> 
